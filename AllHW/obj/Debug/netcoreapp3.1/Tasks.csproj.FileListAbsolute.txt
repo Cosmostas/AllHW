@@ -1,0 +1,8 @@
+C:\Users\Стас Бревнов\source\repos\AllHW\AllHW\bin\Debug\netcoreapp3.1\Tasks.deps.json
+C:\Users\Стас Бревнов\source\repos\AllHW\AllHW\bin\Debug\netcoreapp3.1\Tasks.dll
+C:\Users\Стас Бревнов\source\repos\AllHW\AllHW\bin\Debug\netcoreapp3.1\Tasks.pdb
+C:\Users\Стас Бревнов\source\repos\AllHW\AllHW\obj\Debug\netcoreapp3.1\Tasks.csprojAssemblyReference.cache
+C:\Users\Стас Бревнов\source\repos\AllHW\AllHW\obj\Debug\netcoreapp3.1\Tasks.AssemblyInfoInputs.cache
+C:\Users\Стас Бревнов\source\repos\AllHW\AllHW\obj\Debug\netcoreapp3.1\Tasks.AssemblyInfo.cs
+C:\Users\Стас Бревнов\source\repos\AllHW\AllHW\obj\Debug\netcoreapp3.1\Tasks.dll
+C:\Users\Стас Бревнов\source\repos\AllHW\AllHW\obj\Debug\netcoreapp3.1\Tasks.pdb

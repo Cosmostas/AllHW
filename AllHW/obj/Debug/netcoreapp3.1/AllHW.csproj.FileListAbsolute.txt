@@ -1,0 +1,8 @@
+C:\Users\Стас Бревнов\source\repos\AllHW\AllHW\bin\Debug\netcoreapp3.1\AllHW.deps.json
+C:\Users\Стас Бревнов\source\repos\AllHW\AllHW\bin\Debug\netcoreapp3.1\AllHW.dll
+C:\Users\Стас Бревнов\source\repos\AllHW\AllHW\bin\Debug\netcoreapp3.1\AllHW.pdb
+C:\Users\Стас Бревнов\source\repos\AllHW\AllHW\obj\Debug\netcoreapp3.1\AllHW.csprojAssemblyReference.cache
+C:\Users\Стас Бревнов\source\repos\AllHW\AllHW\obj\Debug\netcoreapp3.1\AllHW.AssemblyInfoInputs.cache
+C:\Users\Стас Бревнов\source\repos\AllHW\AllHW\obj\Debug\netcoreapp3.1\AllHW.AssemblyInfo.cs
+C:\Users\Стас Бревнов\source\repos\AllHW\AllHW\obj\Debug\netcoreapp3.1\AllHW.dll
+C:\Users\Стас Бревнов\source\repos\AllHW\AllHW\obj\Debug\netcoreapp3.1\AllHW.pdb
