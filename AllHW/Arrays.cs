@@ -107,9 +107,18 @@ namespace Tasks
 
             for (int i = 0; i < arr.Length / 2; ++i)
             {
-                temp = arr[arr.Length / 2 + 1 + i];
-                arr[arr.Length / 2 + 1 + i] = arr[i];
-                arr[i] = temp;
+                if(arr.Length % 2 == 1)
+                {
+                    temp = arr[arr.Length / 2 + 1 + i];
+                    arr[arr.Length / 2 + 1 + i] = arr[i];
+                    arr[i] = temp;
+                }
+                else
+                {
+                    temp = arr[arr.Length / 2 + i];
+                    arr[arr.Length / 2 + i] = arr[i];
+                    arr[i] = temp;
+                }
             }
             return arr;
         }

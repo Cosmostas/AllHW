@@ -18,7 +18,6 @@ namespace Tasks
         }
         static public string findNumInInterval(int A)
         {
-            // check how give unit test array
             string ans = "";
             for (int i = A; i <= 1000; ++i)
             {
@@ -175,7 +174,6 @@ namespace Tasks
             {
                 ans += str[str.Length - i - 1];
             }
-            Console.WriteLine($"Answer is: {ans}");
 
             return int.Parse(ans);
         }

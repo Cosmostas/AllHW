@@ -16,6 +16,24 @@ namespace Tasks.Tests
             Assert.AreEqual(expected, actual);
         }
 
+        [TestCase(2, 2)]
+        [TestCase(3, 3)]
+        [TestCase(7, 7)]
+        static public void negativeCalculateExpression(int A, int B)
+        {
+
+            try
+            {
+                Tasks.Variables.calculateExpression(A, B);
+            }
+            catch
+            {
+                Assert.Pass();
+            }
+
+            Assert.Fail();
+        }
+
         [TestCase(2, 5, "5 2")]
         [TestCase(1, 2, "2 1")]
         [TestCase(6, 1, "1 6")]
@@ -39,6 +57,25 @@ namespace Tasks.Tests
             Assert.AreEqual(expected, actual);
         }
 
+
+        [TestCase(2, 0)]
+        [TestCase(3, 0)]
+        [TestCase(7, 0)]
+        static public void negativeCalculateDivisionAndMod(int A, int B)
+        {
+
+            try
+            {
+                Tasks.Variables.calculateDivisionAndMod(A, B);
+            }
+            catch
+            {
+                Assert.Pass();
+            }
+
+            Assert.Fail();
+        }
+
         [TestCase(1, 2, 3, 1)]
         [TestCase(4, 2, 3, 0.25)]
         [TestCase(6, 1, 8, 1.167)]
@@ -49,6 +86,24 @@ namespace Tasks.Tests
         {
             double actual = Tasks.Variables.calculateDividingTheDifference(A, B, C);
             Assert.AreEqual(expected, actual);
+        }
+
+        [TestCase(0, 2, 5)]
+        [TestCase(0, 4, 8)]
+        [TestCase(0, 1, 1)]
+        static public void negativeCalculateDividingTheDifference(int A, int B, int C)
+        {
+
+            try
+            {
+                Tasks.Variables.calculateDividingTheDifference(A, B, C);
+            }
+            catch
+            {
+                Assert.Pass();
+            }
+
+            Assert.Fail();
         }
 
         [TestCase(1, 1, 2, 2, "1 0")]

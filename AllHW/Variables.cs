@@ -6,9 +6,9 @@ namespace Tasks
     {
         static public int calculateExpression(int A, int B)
         {
-            if(B - A == 0)
+            if(B == A)
             {
-                throw new DivideByZeroException();
+                throw new DivideByZeroException("Can't divide by zero");
             }
             else
             {
@@ -25,13 +25,25 @@ namespace Tasks
         }
         static public string calculateDivisionAndMod(int A, int B)
         {
-            // Need to add exception ZeroDevizion
-            return $"{A / B} {A % B}";
+            if (B == 0)
+            {
+                throw new DivideByZeroException("Can't divide by zero");
+            }
+            else
+            {
+                return $"{A / B} {A % B}";
+            }
         }
         static public double calculateDividingTheDifference(int A, int B, int C)
         {
-            // Need to add exception ZeroDevizion
-            return Math.Round((float)(C - B) / (float)A, 3);
+            if (A == 0)
+            {
+                throw new DivideByZeroException("Can't divide by zero");
+            }
+            else
+            {
+                return Math.Round((float)(C - B) / (float)A, 3);
+            }
         }
         static public string calculateCoefficients(int X1, int Y1, int X2, int Y2)
         {
